@@ -18,6 +18,9 @@
         <section>
             @include('partials.thumbBox')
         </section>
+        <section>
+            @include('partials.bluenav')
+        </section>
     </main>
 </body>
 </html>

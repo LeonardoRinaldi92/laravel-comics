@@ -17,5 +17,6 @@ Route::get('/', function () {
 
     $navbar = config('db.navBar');
     $comics = config('db.comicsDb');
-    return view('welcome',compact('navbar','comics') );
+    $icons = config('db.icons');
+    return view('welcome',compact('navbar','comics','icons') );
 })->name('home');
