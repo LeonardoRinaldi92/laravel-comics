@@ -15,6 +15,9 @@
         <section>
             @include('partials.jumbotron')
         </section>
+        <section>
+            @include('partials.thumbBox')
+        </section>
     </main>
 </body>
 </html>
