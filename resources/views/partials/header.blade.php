@@ -23,7 +23,7 @@
                     
                 @endforeach
             </ul>
-            <div>
+            <div class="srch">
                 <input type="text">
             </div>
         </div>

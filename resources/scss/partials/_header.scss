@@ -1,9 +1,14 @@
 .top-header {
     background-color:$blue-dc ;
+    padding:  10px;
 }
 
 .navBar {
-    padding: 20px;
+    .col-1 {
+        img {
+            height: 80px;
+        }
+    }
 }
 
 a {
@@ -25,7 +30,7 @@ ul {
             display: inline-block;
             height: 5px;
             background-color: $blue-dc;
-            bottom: 0;
+            bottom: -16px;
             left: 0;
             right: 0;
         }
@@ -40,4 +45,7 @@ ul {
             font-size: 0.8rem;
         }
     }
+}
+.srch {
+    margin-top: 40px;
 }
