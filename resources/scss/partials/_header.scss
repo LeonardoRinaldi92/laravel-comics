@@ -16,7 +16,7 @@ a {
     text-align: end;
 }
 
-ul {
+ul:not(.lista-bottom) {
     margin-left: 50px;
     display: flex;
     li{
@@ -24,7 +24,7 @@ ul {
         margin-left: 20px;
         padding: 40px 5px;
         position: relative;
-        &:hover::after {
+        &:hover::after:not(.li-bottom) {
             position: absolute;
             content: '';
             display: inline-block;

@@ -21,6 +21,9 @@
         <section>
             @include('partials.bluenav')
         </section>
+        <section>
+            @include('partials.prefooter')
+        </section>
     </main>
 </body>
 </html>

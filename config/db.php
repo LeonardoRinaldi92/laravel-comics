@@ -287,6 +287,108 @@ return [
             'name'=> "dc power visa",
             'url'=>"buy-dc-power-visa.svg",
         ],  
+    ],
+    'lista1' => [
+        [
+            'name'=> "characters",
+            'url'=> "/characters"
+        ],
+        [
+            'name'=> "comics",
+            'url'=> "/comics"
+        ],
+        [
+            'name'=> "movies",
+            'url'=> "/movies"
+        ],
+        [
+            'name'=> "tv",
+            'url'=> "/tv"
+        ],
+        [
+            'name'=> "games",
+            'url'=> "/games"
+        ],
+        [
+            'name'=> "videos",
+            'url'=> "/videos"
+        ],
+        [
+            'name'=> "news",
+            'url'=> "/news"
+        ]
+    ],
+    'lista2' => [
+        [
+            'name'=> "term of use",
+            'url'=> "/term_of_use"
+        ],
+        [
+            'name'=> "privacy policy(new)",
+            'url'=> "/privacy_policy"
+        ],
+        [
+            'name'=> "ad choices",
+            'url'=> "/ad_choices"
+        ],
+        [
+            'name'=> "advertsing",
+            'url'=> "/advertsing"
+        ],
+        [
+            'name'=> "jobs",
+            'url'=> "/jobs"
+        ],
+        [
+            'name'=> "subscriptions",
+            'url'=> "/subscriptions"
+        ],
+        [
+            'name'=> "talent workshop",
+            'url'=> "/talent_workshop"
+        ],
+        [
+            'name'=> "CPSCS certificate",
+            'url'=> "/CPSCS_certificate"
+        ],
+        [
+            'name'=> "talent workshop",
+            'url'=> "/talent_workshop"
+        ],
+        [
+            'name'=> "ratings",
+            'url'=> "/ratings"
+        ],
+        [
+            'name'=> "shop help",
+            'url'=> "/shop help"
+        ],
+        [
+            'name'=> "contact us",
+            'url'=> "/contact us"
+        ]
+    ],
+    'lista3' => [
+        [
+            'name'=> "DC",
+            'url'=> "https://www.dc.com"
+        ],
+        [
+            'name'=> "MAD magazine",
+            'url'=> "https://www.madmagazine.com/"
+        ],
+        [
+            'name'=> "DC kids",
+            'url'=> "https://www.dckids.com/"
+        ],
+        [
+            'name'=> "DC universe",
+            'url'=> "https://www.dcuniverseinfinite.com/coming-soon/"
+        ],
+        [
+            'name'=> "DC power visa",
+            'url'=> "https://www.bestcards.com/credit-cards/dc-power-visa/#:~:text=The%20DC%20Power%20Visa%C2%AE,well%20as%20dining%20and%20gas."
+        ]
     ]
 ];
 
