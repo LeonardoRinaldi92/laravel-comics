@@ -25,5 +25,8 @@
             @include('partials.prefooter')
         </section>
     </main>
+    <footer>
+        @include('partials.footer')
+    </footer>
 </body>
 </html>
