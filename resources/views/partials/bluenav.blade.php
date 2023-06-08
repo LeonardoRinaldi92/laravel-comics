@@ -1,10 +1,10 @@
 <div class="bluenav">
     <div class="box-size">
         @foreach ($icons as $item)
-        <div v-for="(element,index) in icons" class="icon">
-            <img :src="path+element.url" alt="" :id="(element.url.includes('svg')? 'icon-img':'' )">
+        <div class="icon">
+            <img src="{{ Vite::asset('resources/images/'.$item['url']) }}" alt="">
             <span>
-                {{ element.name }}
+                {{ $item['name'] }}
             </span>
         </div>
         @endforeach
