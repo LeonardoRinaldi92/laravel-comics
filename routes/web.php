@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+
+    $navbar = config('db.navBar');
+    return view('welcome',compact('navbar') );
+})->name('home');
