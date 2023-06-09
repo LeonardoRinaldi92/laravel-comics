@@ -7,15 +7,7 @@
         <section>
             @include('partials.jumbotron')
         </section>
-        <section>
-            @include('partials.thumbBox')
-        </section>
-        <section>
-            @include('partials.bluenav')
-        </section>
-        <section>
-            @include('partials.prefooter')
-        </section>
+        @yield('content')
     </main>
     <footer>
         @include('partials.footer')
