@@ -21,5 +21,5 @@ Route::get('/', function () {
     $lista1 = config('db.lista1');
     $lista2 = config('db.lista2');
     $lista3 = config('db.lista3');
-    return view('welcome',compact('navbar','comics','icons','lista1','lista2','lista3') );
+    return view('pages/home',compact('navbar','comics','icons','lista1','lista2','lista3') );
 })->name('home');
